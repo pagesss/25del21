@@ -1,0 +1,493 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: white;
+
+}
+
+.navbar{
+    background-color: #a393eb;
+}
+
+.listaDesordenada{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 30px 100px;
+    transition: 0.2s;
+}
+
+.listaDesordenada{
+    transition: 0.2s;
+}
+
+.listaOrdenada:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.cadaboton{
+    color: black;
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    transition: 0.2s;
+}
+
+.cadaboton:hover{
+    color: antiquewhite;
+    transition: 0.2s;
+}
+
+.textoMes{
+    background-color: #a393eb;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Alata', sans-serif;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.textoMes:hover{
+    color: #ffcbcb;
+}
+
+.fotosHome{
+    background-color: #a393eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
+
+.fotoUnoHome{
+    height: 405px;
+}
+
+.fotoDosHome{
+    height: 400px;
+}
+
+.fotoTresHome{
+    height: 400px;
+}
+
+.textoHome{
+    padding: 20px 50px;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;   
+    text-align: center;
+}
+
+.textoHomeDos{
+    padding: 20px 50px;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+}
+
+.textoHomeTres{
+    padding: 20px 50px;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+}
+
+.rompecabezas{
+    padding: 20px 100px;
+}
+
+.puzzle{
+    width: 400px;
+    height: auto;
+}
+
+footer{
+    background-color: #a393eb;
+    padding: 20px;
+}
+
+.futerImagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corazon{
+    height: 100px;
+    width: auto;
+}
+
+.futerTexto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+
+
+
+
+
+
+
+.tarjetaUno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.tarjetaUnoTexto{
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: 10px groove #a393eb;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 40px;
+    padding: 20px 300px;
+    transition: 0.2s;
+}
+
+.tarjetaUnoTexto:hover{
+    color: #f95959;
+    transition: 0.2s;
+}
+
+.tarjetaDos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.tarjetaDosTexto{
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: 10px groove #a393eb;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 315px;
+    transition: 0.2s;
+}
+
+.tarjetaDosTexto:hover{
+    color: #f95959;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+.introduccionNosotros{
+    padding: 50px 20px;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+}
+
+.tituloHistoria{
+    font-size: 50px;
+    font-family: 'Alata', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.textoHistoria{
+    text-align: center;
+    padding: 20px 100px;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+.textoFinal{
+    text-align: center;
+    padding: 20px 100px;
+    font-size: 50px;
+    font-family: 'Alata', sans-serif;
+}
+
+.cancionUnoyDos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.galeriaUno{
+    height: 400px;
+    width: auto;
+    border: 10px dashed #f95959;
+    border-radius: 20px;
+}
+
+.galeriaDos{
+    height: 400px;
+    width: auto;
+    border: 10px dashed #f95959;
+    border-radius: 20px;
+}
+
+.cancionTresyCuatro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.galeriaTres{
+    height: 400px;
+    width: auto;
+    border: 10px dashed #f95959;
+    border-radius: 20px;
+}
+
+.galeriaCuatro{
+    height: 400px;
+    width: auto;
+    border: 10px dashed #f95959;
+    border-radius: 20px;
+}
+
+.cancionBonus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.galeriaCinco{
+    height: 400px;
+    width: auto;
+    border: 10px dashed #f95959;
+    border-radius: 20px;
+}
+
+
+
+
+.peliculas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.listaDePeliculas{
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: 10px groove #a393eb;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 40px;
+    padding: 20px 300px;
+    transition: 0.2s;
+}
+
+.listaDePeliculas:hover{
+   color: #f95959;
+   transition: 0.2s;
+}
+
+
+
+.textoInicioPeliculas{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+}
+
+.letraA{
+    font-size: 50px;
+    font-family: 'Alata', sans-serif;
+    padding: 30px;
+    text-align: center;
+    background-color: #a393eb;
+    color: white;
+}
+
+.portadasLetraA{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.avatar{
+    height: 400px;
+    width: auto;
+}
+
+.cancer{
+    height: 400px;
+    width: auto;
+}
+
+.letraB{
+    font-size: 50px;
+    font-family: 'Alata', sans-serif;
+    padding: 30px;
+    text-align: center;
+    background-color: #a393eb;
+    color: white;
+}
+
+.portadasLetraB{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.babadook{
+    height: 400px;
+    width: auto;
+}
+
+.bee{
+    height: 400px;
+    width: auto;
+}
+
+
+@media screen and (max-width:415px) {
+
+
+    .listaDesordenada{
+        padding: 30px 30px;
+    }
+
+    .textoMes{
+        font-size: 40px;
+    }
+
+    .fotoTresHome{
+        height: 400px;
+        width: auto;
+    }
+
+    .fotoshome{
+        height: 500px;
+        width: auto;
+    }
+
+    .rompecabezas{
+        padding: 20px 10px;
+    }
+
+    .textoHome{
+        font-size: 15px;
+        padding: 20px 20px;
+    }
+
+    .textoHomeDos{
+        font-size: 15px;
+        padding: 20px 20px;
+    }
+
+    .textoHomeTres{
+        font-size: 15px;
+        padding: 20px 20px;
+    }
+
+    .tarjetaUnoTexto{
+        font-size: 20px;
+        padding: 20px 50px;
+    }
+
+    .tarjetaDosTexto{
+        font-size: 20px;
+        padding: 20px 60px;
+    }
+
+    .tituloHistoria{
+        font-size: 40px;
+    }
+
+    .textoHistoria{
+        padding: 20px 30px;
+    }
+
+    .textoFinal{
+        font-size: 40px;
+    }
+
+    .galeriaUno{
+        height: 250px;
+        width: auto;
+    }
+
+    .galeriaDos{
+        height: 250px;
+        width: auto;
+    }
+
+    .galeriaTres{
+        height: 250px;
+        width: auto;
+    }
+
+    .galeriaCuatro{
+        height: 250px;
+        width: auto;
+    }
+
+    .galeriaCinco{
+        height: 250px;
+        width: auto;
+    }
+
+    .listaDePeliculas{
+        padding: 20px 50px;
+    }
+    
+    .avatar{
+        height: 200px;
+        width: auto;
+    }
+
+    .cancer{
+        height: 200px;
+        width: auto;
+    }
+
+    .babadook{
+        height: 200px;
+        width: auto;
+    }
+
+    .bee{
+        height: 200px;
+        width: auto;
+    }
+
+}
